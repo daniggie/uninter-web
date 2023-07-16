@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: var(--linear);
+}
+
+:root {
+    --light: #F67280;
+    --medium: #C06C84;
+    --dark: #6C5B7B;
+    --draft: #355C7D;
+    --linear: linear-gradient(270deg, var(--draft), var(--dark));
+}
+
+.banner {
+    padding: 4rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.container {
+    margin: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.15);
+    padding: 4rem;
+    color: #393939;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400 !important;
+}
+
+button {
+    color: white !important;
+    font-size: medium !important;
+    padding: 0.500rem;
+    transition: .2s !important;
+    border-radius: 8px;
+    background-color: #355C7D;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.aboutMe {
+    background-color: var(--light);
+}
+
+.formation {
+    background-color: var(--dark);
+}
+
+.portifolio {
+    background-color: var(--draft);
+}
+
+.contact {
+    background-color: var(--medium);
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.750rem;
+    align-items: top;
+}
+
+.badge {
+    font-size: 12px;
+    padding: 0.450rem;
+    border-radius: 8px;
+    background-color: #e5e5e5;
+}
+
+a {
+    color: #393939;
+    text-decoration: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
